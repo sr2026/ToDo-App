@@ -56,6 +56,7 @@ src/
 
 If you found this project useful, feel free to ⭐ the repository.
 
-<img width="626" height="446" alt="Screenshot 2026-06-29 184058" src="https://github.com/user-attachments/assets/d7c3ccd4-f596-44d3-bbfd-9b65d26d55c2" />
+<img width="519" height="383" alt="Screenshot 2026-06-29 184848" src="https://github.com/user-attachments/assets/7786d47c-234d-47c8-8f82-405548a48168" />
+
 
 
