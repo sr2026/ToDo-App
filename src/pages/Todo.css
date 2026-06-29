@@ -1,0 +1,141 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#dbeafe;
+    min-height:100vh;
+    padding:40px;
+}
+
+.todo-container{
+    width:90%;
+    max-width:850px;
+    margin:auto;
+    background:#fff;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+h1{
+    text-align:center;
+    color:#2563eb;
+    font-size:38px;
+    margin-bottom:25px;
+}
+form{
+    display:flex;
+    gap:15px;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:14px;
+    font-size:16px;
+    border:2px solid #dbeafe;
+    border-radius:10px;
+    outline:none;
+}
+
+input:focus{
+    border-color:#2563eb;
+}
+
+button{
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    color:white;
+    cursor:pointer;
+    transition:.3s;
+}
+
+form button{
+    background:#2563eb;
+}
+
+form button:hover{
+    background:#1d4ed8;
+}
+
+.search-input{
+    margin-bottom:20px;
+  
+}
+
+.filter-buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.filter-buttons button{
+    background:#e5e7eb;
+    color:#333;
+}
+
+.filter-buttons button:hover{
+    background:#2563eb;
+    color:#fff;
+}
+
+.task-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+    padding:18px;
+    margin-bottom:15px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.task-left{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.task-left input{
+    width:20px;
+    height:20px;
+}
+
+.task-left p{
+    font-size:18px;
+    font-weight:600;
+}
+
+.completed{
+    text-decoration:line-through;
+    color:gray;
+}
+
+
+.task-buttons{
+    display:flex;
+    gap:10px;
+}
+
+.task-buttons button:first-child{
+    background:#22c55e;
+}
+
+.task-buttons button:first-child:hover{
+    background:#16a34a;
+}
+
+.task-buttons button:last-child{
+    background:#ef4444;
+}
+
+.task-buttons button:last-child:hover{
+    background:#dc2626;
+}
