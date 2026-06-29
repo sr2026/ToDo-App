@@ -55,3 +55,7 @@ src/
   
 
 If you found this project useful, feel free to ⭐ the repository.
+
+<img width="626" height="446" alt="Screenshot 2026-06-29 184058" src="https://github.com/user-attachments/assets/d7c3ccd4-f596-44d3-bbfd-9b65d26d55c2" />
+
+
